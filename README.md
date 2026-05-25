@@ -20,8 +20,9 @@
 | Geräuschemission | 45–55 dB(A) | < 25 dB(A) | flüsterleise |
 | Rack-Höheneinheiten | 2 U | 0 U (Mini-PC) | ~25 cm Platz frei |
 | CPU-Effizienz (PassMark/W) | ~50 | ~720 | **14× besser** |
-| Investition (gebraucht/refurb., 32 GB) | — | ~877 € | Amortisation **~20 Monate** |
-| Investition (gebraucht/refurb., 64 GB) | — | ~1.327 € | Amortisation **~31 Monate** |
+| Investition (Samsung-OEM 64 GB Schnäppchen) | — | **~926 €** ⭐ | Amortisation **~22 Monate** |
+| Investition (Crucial-Retail 64 GB Listpreis) | — | ~1.327 € | Amortisation ~31 Monate |
+| Investition (32 GB Variante) | — | ~877 € | Amortisation ~20 Monate |
 
 > 📊 Vollständige Wirtschaftlichkeitsanalyse mit Live-Daten aus
 > Home Assistant: **[docs/05-einsparungen.md](docs/05-einsparungen.md)**

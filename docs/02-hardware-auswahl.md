@@ -143,7 +143,11 @@ Realer RAM-Bedarf des aktuellen ESXi-Setups: **~16 GB** (alle 12 VMs zusammen). 
 | DAC-Kabel | MikroTik S+DA0001 1 m | Direktverbindung CRS305 | ~28 € | Amazon DE |
 | **Summe Variante B** | | | **~877 €** | |
 
-### Variante A — Vollausbau (64 GB RAM, ~1.327 €)
+### Variante A (REAL!) — Samsung-OEM-Schnäppchen 64 GB (~926 €)
+
+Dank eines eBay-Schnäppchens (Samsung M425R4GA3BB0-CWM 64 GB Kit OEM für **199 €** statt 600 € Crucial-Retail) ist der 64-GB-Vollausbau jetzt **wirtschaftlicher** als die 32-GB-Variante.
+
+### Variante A (Listpreis) — Vollausbau (64 GB RAM, ~1.327 €)
 
 Nur sinnvoll, wenn nach 3–6 Monaten Betrieb der RAM tatsächlich knapp wird. DDR5-Preise fallen voraussichtlich Ende 2026, wenn HBM-Kapazitäten online kommen → späteres Upgrade ist günstiger.
 
