@@ -1,0 +1,13 @@
+vmid,name,role,ram_alloc_gb,ram_real_gb,disk_provisioned_gb,power_state,target_platform,new_ram_gb,migration_complexity
+87,BDC2025,Active Directory DC (Win Server 2019),32,3.9,500,on,UM790-Proxmox,8,High
+123,splunk,SIEM/Log-Analyse,20,3.7,860,on,K3s-Helm,8,High
+143,UTM SG,Sophos UTM Firewall (replaced),16,1.1,100,on,REPLACED-by-OPNsense,8,Medium
+160,ecoDMS,Dokumentenmanagement,16,0.8,500,on,K3s,4,Low
+162,Kibana_OSINT,Elastic+Kibana OSINT Daten,32,1.3,8192,on-snapshot,K3s-Archive,8,Medium
+163,MailCOW,Mailserver,32,0,500,off,SCRAP-or-NUC-HA,6,Low
+164,OS-Watch,OSINT-Monitoring,16,0.2,500,on,K3s,4,Low
+165,tembo,PostgreSQL-Stack-Restore,32,0,700,off,SCRAP,0,Trivial
+183,Caldera,MITRE Caldera Threat Emulation,4,0.2,150,on,K3s,2,Trivial
+185,CAPEv2,Malware-Sandbox (Nested-Virt),64,4.6,850,on,UM790-Proxmox-NestedVirt,16,High
+186,CheckMK,Monitoring,8,0.1,104,on,K3s,2,Trivial
+187,MWcrawler,OSINT-Crawler,12,0.3,300,on,K3s,4,Low

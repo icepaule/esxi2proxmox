@@ -1,0 +1,24 @@
+# Sensible Daten — niemals einchecken
+secrets.yaml
+secrets.txt
+*.token
+*.pem
+*.key
+config.xml
+opnsense-config-*.xml
+sophos-backup*.zip
+sophos-backup*.bak
+**/private/**
+
+# Temp / IDE
+.DS_Store
+*.swp
+*.tmp
+*~
+.vscode/
+.idea/
+
+# Build artifacts
+_site/
+.jekyll-cache/
+node_modules/

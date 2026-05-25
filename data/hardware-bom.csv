@@ -1,0 +1,9 @@
+position,modell,zweck,preis_eur,quelle,bemerkung
+1,Minisforum UM790 Pro Refurbished Barebone (R9 7940HS),Hauptgeraet Proxmox-Host,299,minisforumpc.eu Refurb-Shop,Variant 52273580900718 SKU UM79000REU
+2,Crucial 64GB DDR5-5600 SODIMM Kit (CT2K32G56C46S5),Hauptspeicher 64 GB,150,Mindfactory / Amazon DE,CL46 Industriestandard
+3,WD Black SN770 1TB NVMe Gen4,Storage 1 (ZFS-Mirror Disk 1),70,Mindfactory,DRAM-less aber stabil
+4,WD Black SN770 1TB NVMe Gen4,Storage 2 (ZFS-Mirror Disk 2),70,Mindfactory,Mirror-Partner
+5,QNAP QNA-T310G1S (SFP+) USB4-10G Adapter,10G-Trunk zum CRS305-Backbone,260,Amazon DE,Marvell AQC107 Linux-supported
+6,MikroTik S+DA0001 1m DAC-Kabel,SFP+ zur CRS305 sfp2,28,Amazon DE,kompatibel zu CRS305
+7,UGREEN USB-Serial Adapter FT232 (optional),OPNsense-Console-Setup,15,Amazon DE,Nice-to-have
+SUM,,,892,,inkl. optional

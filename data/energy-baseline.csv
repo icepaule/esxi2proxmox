@@ -1,0 +1,23 @@
+metric,wert,einheit,zeitraum,quelle
+hausverbrauch_avg,1012,W,30 Tage,Tibber Pulse via HA
+hausverbrauch_min,185,W,30 Tage,Tibber Pulse via HA
+hausverbrauch_max,6837,W,30 Tage,Tibber Pulse via HA
+hausverbrauch_tag,24.3,kWh,Tagesmittel,berechnet
+hausverbrauch_jahr,8866,kWh,Jahreshochrechnung,berechnet
+pv_avg_24h,277,W,30 Tage,PV-Sensor via HA
+pv_max,1243,W,30 Tage,PV-Sensor via HA
+pv_tag,6.65,kWh,Tagesmittel,berechnet
+pv_jahr,2426,kWh,Jahreshochrechnung,berechnet
+pv_gesamt,3099,kWh,seit Inbetriebnahme,PV-Counter
+tibber_median,30.53,ct/kWh,30 Tage,Tibber-API via HA
+tibber_mittelwert,27.98,ct/kWh,30 Tage,Tibber-API via HA
+tibber_min,-42.13,ct/kWh,30 Tage,Tibber-API via HA
+tibber_max,59.76,ct/kWh,30 Tage,Tibber-API via HA
+dl380_idle_estimate,200,W,Servertyp-Mittel,Datenblatt+HOmelab-Berichte
+um790_idle,13,W,Hersteller-Spec,UM790-Reviews
+um790_typical,25,W,realistic mit OPNsense+VMs,Erfahrungswert
+dl380_jahreskosten_30ct,534,EUR,bei 30.5 ct/kWh,berechnet
+um790_jahreskosten_30ct,67,EUR,bei 30.5 ct/kWh,berechnet
+nettoersparnis_jahr,511,EUR,inkl PV-Bonus 44 EUR,berechnet
+amortisation_monate,21,Monate,bei Hardware-Invest 877 EUR,berechnet
+co2_einsparung_jahr,583,kg,bei DE-Strom-Mix 380 g/kWh,berechnet
