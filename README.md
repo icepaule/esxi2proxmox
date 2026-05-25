@@ -20,9 +20,10 @@
 | Geräuschemission | 45–55 dB(A) | < 25 dB(A) | flüsterleise |
 | Rack-Höheneinheiten | 2 U | 0 U (Mini-PC) | ~25 cm Platz frei |
 | CPU-Effizienz (PassMark/W) | ~50 | ~720 | **14× besser** |
-| Investition (Samsung-OEM 64 GB Schnäppchen) | — | **~926 €** ⭐ | Amortisation **~22 Monate** |
-| Investition (Crucial-Retail 64 GB Listpreis) | — | ~1.327 € | Amortisation ~31 Monate |
-| Investition (32 GB Variante) | — | ~877 € | Amortisation ~20 Monate |
+| Investition (32 GB DDR5 Crucial-Retail, **empfohlen**) | — | **~907 €** ⭐ | Amortisation **~21 Monate** |
+| Investition (64 GB DDR5 Crucial-Retail, optional später) | — | ~1.327 € | Amortisation ~31 Monate |
+
+> ⚠️ Lessons Learned aus eBay-Schnäppchen-Fallen siehe **[docs/07-lessons-learned.md](docs/07-lessons-learned.md)**
 
 > 📊 Vollständige Wirtschaftlichkeitsanalyse mit Live-Daten aus
 > Home Assistant: **[docs/05-einsparungen.md](docs/05-einsparungen.md)**

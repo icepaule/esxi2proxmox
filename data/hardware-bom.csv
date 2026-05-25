@@ -1,9 +1,8 @@
 position,modell,zweck,preis_eur,quelle,bemerkung
-1,Minisforum UM790 Pro Refurbished Barebone (R9 7940HS),Hauptgeraet Proxmox-Host,299,minisforumpc.eu Refurb-Shop verifiziert,Variant 52273580900718 SKU UM79000REU
-2,Samsung 64GB DDR5-5600 SODIMM Kit OEM (M425R4GA3BB0-CWM 2x32GB),Hauptspeicher 64 GB,199,eBay DE OEM-Haendler 10J Garantie,Schnaeppchen ~66% unter Marktpreis Mai 2026
-2_alt,Crucial 64GB DDR5-5600 Kit (CT2K32G56C46S5) - Vergleichspreis Neuware,RAM-Vergleichswert,600,Best Buy 629 USD / Walmart 599 USD,nur falls Samsung-Deal nicht klappt
+1,Minisforum UM790 Pro Refurbished Barebone (R9 7940HS),Hauptgeraet Proxmox-Host,299,minisforumpc.eu Refurb-Shop verifiziert,Variant 52273580900718 SKU UM79000REU - BESTELLT
+2,Crucial 32GB DDR5-5600 SODIMM Kit CT2K16G56C46S5 (2x16GB),Hauptspeicher 32 GB Dual-Channel,180,Mindfactory / Amazon DE - Preis pruefen,Funktionierend mit Garantie - NICHT eBay-Schnaeppchen
 3,WD Black SN770 1TB NVMe Gen4,Storage 1 (ZFS-Mirror Disk 1),70,Mindfactory - PREIS PRUEFEN,DRAM-less aber stabil
 4,WD Black SN770 1TB NVMe Gen4,Storage 2 (ZFS-Mirror Disk 2),70,Mindfactory - PREIS PRUEFEN,Mirror-Partner
 5,QNAP QNA-T310G1S (SFP+) USB4-10G Adapter,10G-Trunk zum CRS305-Backbone,260,Amazon DE - PREIS PRUEFEN,Marvell AQC107 Linux-supported
 6,MikroTik S+DA0001 1m DAC-Kabel,SFP+ zur CRS305 sfp2,28,Amazon DE - PREIS PRUEFEN,kompatibel zu CRS305
-SUM_REAL_KAUFPREIS,,,926,,Mit Samsung-OEM-Schnaeppchen statt Neuware
+SUM_VARIANTE_B_32GB,,,907,,empfohlen - funktionierende Hardware mit Garantie
