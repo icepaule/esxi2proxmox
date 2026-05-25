@@ -124,21 +124,40 @@ Begründung:
    EU-Versand
 8. **Idle ~13 W** — über 90 % weniger als DL380
 
-## Komplettes Setup — Bill of Materials (Variante B)
+## Komplettes Setup — Bill of Materials
+
+### ⚠️ Wichtige Preis-Korrektur (Mai 2026)
+
+DDR5 SODIMM ist 2024–2026 wegen HBM/AI-Nachfrage stark gestiegen. **Live-Preise vor Bestellung im Browser verifizieren** — die hier genannten Werte sind Schätzungen aus US-Listen (Best Buy $629, Walmart $599 für 64 GB Kit) und können in DE abweichen.
+
+### Variante B — empfohlen (32 GB RAM, ~877 €)
+
+Realer RAM-Bedarf des aktuellen ESXi-Setups: **~16 GB** (alle 12 VMs zusammen). Nach K3s-Offload der leichten Workloads bleiben auf dem UM790 nur Proxmox + OPNsense + BDC2025 + CAPEv2 (~36 GB allokiert). 32 GB sind eng, aber via Memory-Ballooning und Swap auf NVMe machbar.
 
 | Position | Modell | Funktion | Preis | Quelle |
 |---|---|---|---|---|
-| Mainboard/Gerät | Minisforum UM790 Pro Refurbished Barebone | R9 7940HS, Gehäuse, NT | 299 € | [minisforumpc.eu](https://minisforumpc.eu/products/um760-pro-um790-pro-um890-pro-refurbished) |
-| RAM | Crucial 64 GB DDR5-5600 SODIMM Kit (CT2K32G56C46S5) | Hauptspeicher | 150 € | Mindfactory / Amazon DE |
-| Storage 1 | WD Black SN770 1 TB | Proxmox + VMs (ZFS-Mirror) | 70 € | Mindfactory |
-| Storage 2 | WD Black SN770 1 TB | ZFS-Mirror | 70 € | Mindfactory |
-| 10G NIC | QNAP QNA-T310G1S (SFP+) | 10G-Trunk an CRS305 | 260 € | Amazon DE |
-| DAC-Kabel | MikroTik S+DA0001 1 m | Direktverbindung CRS305 | 28 € | Amazon DE |
-| **Summe** | | | **877 €** | |
+| Mainboard/Gerät | Minisforum UM790 Pro Refurbished Barebone | R9 7940HS, Gehäuse, NT | **299 € (verifiziert)** | [minisforumpc.eu](https://minisforumpc.eu/products/um760-pro-um790-pro-um890-pro-refurbished) |
+| RAM | Crucial 32 GB DDR5-5600 SODIMM Kit (CT2K16G56C46S5) | Hauptspeicher | ~150 € | Mindfactory / Amazon DE (Live prüfen) |
+| Storage 1+2 | 2× WD Black SN770 1 TB | ZFS-Mirror | ~140 € | Mindfactory (Live prüfen) |
+| 10G NIC | QNAP QNA-T310G1S (SFP+) | 10G-Trunk an CRS305 | ~260 € | Amazon DE (Live prüfen) |
+| DAC-Kabel | MikroTik S+DA0001 1 m | Direktverbindung CRS305 | ~28 € | Amazon DE |
+| **Summe Variante B** | | | **~877 €** | |
 
-> 💡 Variante A (Single 2 TB NVMe statt Mirror, RJ45 10G statt SFP+) =
-> ~907 €. Variante B ist sicherer (Mirror) und besser ins Backbone
-> integriert (SFP+ direkt auf den CRS305-Switch).
+### Variante A — Vollausbau (64 GB RAM, ~1.327 €)
+
+Nur sinnvoll, wenn nach 3–6 Monaten Betrieb der RAM tatsächlich knapp wird. DDR5-Preise fallen voraussichtlich Ende 2026, wenn HBM-Kapazitäten online kommen → späteres Upgrade ist günstiger.
+
+| Position | Modell | Preis |
+|---|---|---|
+| UM790 Pro Refurb Barebone | wie oben | 299 € |
+| Crucial 64 GB DDR5-5600 Kit (CT2K32G56C46S5) | **~600 €** | [Crucial.com Produktseite](https://www.crucial.com/memory/ddr5/ct2k32g56c46s5) · [Amazon US](https://www.amazon.com/Crucial-5600MHz-5200MHz-4800MHz-CT2K32G56C46S5/dp/B0BLTG7TN6) |
+| 2× SN770 1 TB | wie oben | 140 € |
+| QNAP QNA-T310G1S + DAC | wie oben | 288 € |
+| **Summe Variante A** | | **~1.327 €** |
+
+### Variante C — Upgrade-Pfad
+
+Start mit Variante B (32 GB) → falls nötig später 32 GB hinzukaufen oder auf 2× 32 GB Module umstecken. Empfohlene Strategie.
 
 ### Optional / Nice-to-have
 

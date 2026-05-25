@@ -106,28 +106,46 @@ xychart-beta
 
 ## ROI / Amortisation
 
+### Variante B (32 GB RAM, Investition ~877 €)
+
 ```mermaid
 xychart-beta
-    title "Kumulierte Stromkosten vs. Investition"
+    title "Kumulierte Stromkosten vs. Investition (32 GB-Variante)"
     x-axis ["Jahr 1", "Jahr 2", "Jahr 3", "Jahr 4", "Jahr 5"]
     y-axis "EUR" 0 --> 3000
     line [534, 1068, 1602, 2136, 2670]
     line [944, 1011, 1078, 1145, 1212]
 ```
 
-- **Rote Linie** (DL380 weiter laufen lassen): kumulierte Stromkosten
-- **Grüne Linie**: Investition 877 € einmalig + UM790-Stromkosten (67 €/Jahr)
-- **Schnittpunkt: bei ~22 Monaten** ist der UM790-Pfad günstiger
-
-| Zeitraum | DL380 weiter | UM790 (incl. Invest 877 €) | Kumulierter Gewinn UM790 |
+| Zeitraum | DL380 weiter | UM790 (Invest 877 €) | Kumulierter Gewinn UM790 |
 |---|---|---|---|
 | 6 Monate | 267 € | 911 € | −644 € |
 | 12 Monate | 534 € | 944 € | −410 € |
 | 18 Monate | 801 € | 977 € | −176 € |
-| **22 Monate** ⭐ | **978 €** | **1.000 €** | **−22 € (Break-Even)** |
+| **20 Monate** ⭐ | **890 €** | **989 €** | **−99 € (nahe Break-Even)** |
 | 24 Monate | 1.068 € | 1.011 € | **+57 €** |
-| 36 Monate | 1.602 € | 1.078 € | **+524 €** |
 | 60 Monate | 2.670 € | 1.212 € | **+1.458 €** |
+
+### Variante A (64 GB RAM, Investition ~1.327 €) — DDR5-Preis-Korrektur Mai 2026
+
+```mermaid
+xychart-beta
+    title "Kumulierte Stromkosten vs. Investition (64 GB-Variante)"
+    x-axis ["Jahr 1", "Jahr 2", "Jahr 3", "Jahr 4", "Jahr 5"]
+    y-axis "EUR" 0 --> 3000
+    line [534, 1068, 1602, 2136, 2670]
+    line [1394, 1461, 1528, 1595, 1662]
+```
+
+| Zeitraum | DL380 weiter | UM790 (Invest 1.327 €) | Kumulierter Gewinn UM790 |
+|---|---|---|---|
+| 12 Monate | 534 € | 1.394 € | −860 € |
+| 24 Monate | 1.068 € | 1.461 € | −393 € |
+| **31 Monate** ⭐ | **1.376 €** | **1.500 €** | **−124 € (Break-Even)** |
+| 36 Monate | 1.602 € | 1.528 € | **+74 €** |
+| 60 Monate | 2.670 € | 1.662 € | **+1.008 €** |
+
+→ DDR5-RAM-Preise sind 2026 wegen HBM/AI-Nachfrage stark gestiegen. **Variante B (32 GB)** ist klar empfohlen — der reale RAM-Bedarf liegt nur bei 16 GB und das Upgrade auf 64 GB kann später günstiger (DDR5-Preise sinken erwartet) nachgezogen werden.
 
 > **Mit jeder Strompreiserhöhung verkürzt sich die Amortisation.**
 > Steigt der Tibber-Median auf 35 ct/kWh (mittelfristig nicht
