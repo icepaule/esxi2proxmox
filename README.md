@@ -20,8 +20,10 @@
 | Geräuschemission | 45–55 dB(A) | < 25 dB(A) | flüsterleise |
 | Rack-Höheneinheiten | 2 U | 0 U (Mini-PC) | ~25 cm Platz frei |
 | CPU-Effizienz (PassMark/W) | ~50 | ~720 | **14× besser** |
-| Investition (32 GB DDR5 Crucial-Retail, **empfohlen**) | — | **~907 €** ⭐ | Amortisation **~21 Monate** |
-| Investition (64 GB DDR5 Crucial-Retail, optional später) | — | ~1.327 € | Amortisation ~31 Monate |
+| Investition (32 GB DDR5 Crucial-Retail, **empfohlen**) | — | **~1.007 €** ⭐ | Amortisation **~24 Monate** |
+| Investition (64 GB DDR5 Crucial-Retail, optional später) | — | ~1.500+ € | Amortisation ~35+ Monate |
+
+> ⚠️ DDR5-Marktpreise sind 2026 wegen AI-Driven DRAM-Shortage um Faktor 3 gestiegen (Tom's Hardware Mai 2026). Verifizierte Preise siehe **[docs/07-lessons-learned.md](docs/07-lessons-learned.md)**
 
 > ⚠️ Lessons Learned aus eBay-Schnäppchen-Fallen siehe **[docs/07-lessons-learned.md](docs/07-lessons-learned.md)**
 

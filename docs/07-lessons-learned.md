@@ -99,3 +99,36 @@ Bestellplan jetzt **konservativ**:
 
 Die ursprünglich erhoffte 64-GB-Vollausstattung kommt
 **später per Upgrade**, wenn der DDR5-Markt sich entspannt hat.
+
+## Fall 3 — Wiederholter Preis-Schätzfehler beim DDR5-RAM
+
+**Was passiert ist** (Mai 2026, drei Iterationen):
+
+| Iteration | Behauptung | Realität | Quelle der Realität |
+|---|---|---|---|
+| 1 | 64 GB DDR5 Kit ~150 € | ~600 € (Tom's Hardware: AI-Driven Shortage) | User-Korrektur |
+| 2 | Samsung 64 GB "OEM Schnäppchen" 199 € | Lockangebot, real 650 € | User-Korrektur |
+| 3 | 32 GB Crucial Kit ~180 € | **279,95 €** (Geizhals verifiziert) | User-Korrektur + Geizhals |
+
+**Wurzelursache**: Ich habe Preise aus meinem Trainings-/Vorwissen geschätzt statt aktuelle Marktpreise zu verifizieren. Der DDR5-Markt hat sich Oktober 2025 → Mai 2026 **verdreifacht** (DRAM-Shortage durch HBM/AI-Wafer-Konkurrenz). Mein Vorwissen war systematisch veraltet.
+
+**Selbstverpflichtung für die Zukunft**:
+
+> Bei JEDER Preisangabe in diesem Repo gilt:
+> - Entweder **verifizierter Live-Preis** mit Quelle und Datum
+> - Oder **explizit als Schätzung gekennzeichnet** mit Hinweis "vor Bestellung live prüfen"
+> - Niemals beides vermischen oder einen Schätzpreis als verifiziert darstellen
+
+**Marktrealität DDR5 SODIMM Mai 2026** (Geizhals-verifiziert):
+
+| Modul | Günstigster Preis | Stand |
+|---|---|---|
+| Crucial CT2K16G56C46S5 (32 GB Kit 2×16 GB DDR5-5600) | **279,95 €** | 25.05.2026 |
+| Crucial CT2K32G56C46S5 (64 GB Kit 2×32 GB DDR5-5600) | ~600+ € (zu verifizieren) | 25.05.2026 |
+| Single 32 GB DDR5-5600 SO-DIMM gebraucht | ~200-250 € | eBay-Stichproben |
+
+**Praktische Konsequenz** für dieses Projekt:
+- BOM-Preise sind jetzt klar als "verifiziert" oder "Schätzung" gekennzeichnet
+- Investition Variante B (32 GB): ~1.007 € statt ursprünglich ~877 € (+15 %)
+- Amortisation: ~24 Monate (statt ursprünglich ~21)
+- Variante A (64 GB) wirtschaftlich nicht attraktiv bei aktuellem DDR5-Preisniveau — Upgrade abwarten bis Markt sich entspannt

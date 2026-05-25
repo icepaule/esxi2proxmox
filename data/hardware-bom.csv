@@ -1,8 +1,8 @@
 position,modell,zweck,preis_eur,quelle,bemerkung
 1,Minisforum UM790 Pro Refurbished Barebone (R9 7940HS),Hauptgeraet Proxmox-Host,299,minisforumpc.eu Refurb-Shop verifiziert,Variant 52273580900718 SKU UM79000REU - BESTELLT
-2,Crucial 32GB DDR5-5600 SODIMM Kit CT2K16G56C46S5 (2x16GB),Hauptspeicher 32 GB Dual-Channel,180,Mindfactory / Amazon DE - Preis pruefen,Funktionierend mit Garantie - NICHT eBay-Schnaeppchen
-3,WD Black SN770 1TB NVMe Gen4,Storage 1 (ZFS-Mirror Disk 1),70,Mindfactory - PREIS PRUEFEN,DRAM-less aber stabil
-4,WD Black SN770 1TB NVMe Gen4,Storage 2 (ZFS-Mirror Disk 2),70,Mindfactory - PREIS PRUEFEN,Mirror-Partner
-5,QNAP QNA-T310G1S (SFP+) USB4-10G Adapter,10G-Trunk zum CRS305-Backbone,260,Amazon DE - PREIS PRUEFEN,Marvell AQC107 Linux-supported
-6,MikroTik S+DA0001 1m DAC-Kabel,SFP+ zur CRS305 sfp2,28,Amazon DE - PREIS PRUEFEN,kompatibel zu CRS305
-SUM_VARIANTE_B_32GB,,,907,,empfohlen - funktionierende Hardware mit Garantie
+2,Crucial 32GB DDR5-5600 SODIMM Kit CT2K16G56C46S5 (2x16GB),Hauptspeicher 32 GB Dual-Channel,280,jn-distribution via Geizhals verifiziert 25.05.2026,Marktpreis 279.95-469 EUR - DDR5 Shortage 2026
+3,WD Black SN770 1TB NVMe Gen4,Storage 1 (ZFS-Mirror Disk 1),70,Mindfactory - SCHÄTZUNG nicht verifiziert,DRAM-less aber stabil
+4,WD Black SN770 1TB NVMe Gen4,Storage 2 (ZFS-Mirror Disk 2),70,Mindfactory - SCHÄTZUNG nicht verifiziert,Mirror-Partner
+5,QNAP QNA-T310G1S (SFP+) USB4-10G Adapter,10G-Trunk zum CRS305-Backbone,260,Amazon DE - SCHÄTZUNG nicht verifiziert,Marvell AQC107 Linux-supported
+6,MikroTik S+DA0001 1m DAC-Kabel,SFP+ zur CRS305 sfp2,28,Amazon DE - SCHÄTZUNG nicht verifiziert,kompatibel zu CRS305
+SUM_VARIANTE_B_32GB,,,1007,,verifizierter RAM + SCHÄTZWERTE für Storage/NIC - vor Bestellung Live pruefen
